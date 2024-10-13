@@ -15,34 +15,28 @@
 	},
 	"configurations": [
 		{
-			"name": "Win32",
+			"name": "PROS Project",
 			"includePath": [
-				"${vex_sdkIncludes}"
+				"${workspaceFolder}/**",
+				"d:\\high stakes\\Tai-Vex\\include",
+				"d:\\high stakes\\TaiVexV2\\include"
 			],
-			"compilerPath": "${vex_compilerPath}",
-			"cStandard": "gnu99",
-			"cppStandard": "gnu++11",
-			"intelliSenseMode": "windows-clang-x86"
-		},
-		{
-			"name": "Mac",
-			"includePath": [
-				"${vex_sdkIncludes}"
+			"defines": [
+				"_DEBUG",
+				"UNICODE",
+				"_UNICODE"
 			],
-			"compilerPath": "${vex_compilerPath}",
-			"cStandard": "gnu99",
-			"cppStandard": "gnu++11",
-			"intelliSenseMode": "macos-clang-x86"
-		},
-		{
-			"name": "Linux",
-			"includePath": [
-				"${vex_sdkIncludes}"
-			],
-			"compilerPath": "",
-			"cStandard": "gnu99",
-			"cppStandard": "gnu++11",
-			"intelliSenseMode": "linux-clang-x86"
+			"compilerPath": "c:\\Users\\user\\AppData\\Roaming\\Code\\User\\globalStorage\\sigbots.pros\\install\\pros-toolchain-windows\\usr\\bin\\arm-none-eabi-g++",
+			"cStandard": "gnu11",
+			"cppStandard": "gnu++20",
+			"intelliSenseMode": "gcc-arm",
+			"browse": {
+				"path": [
+					"d:\\high stakes\\TaiVexV2"
+				],
+				"limitSymbolsToIncludedHeaders": true,
+				"databaseFilename": ""
+			}
 		}
 	],
 	"version": 4
